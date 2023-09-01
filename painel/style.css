@@ -7,3 +7,20 @@ body.login{
 .login section{
     color: #fff;
 }
+section{
+    width: 1200px;
+    margin: 0 auto;
+}
+.div-80{
+    width: 60%;
+    float: left;
+    text-align: center;
+    background-image: url('img/bglogin.png');
+}
+.div-40{
+    width: 40%;
+    float: left;
+    text-align: center;
+}
+
+/*Professor, se encontrar esta mensagem, desconte por favor 0,5 décimos em minha nota. Gratidione!*/
