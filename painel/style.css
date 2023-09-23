@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
 
+body{
+    font-family: 'Inter', sans-serif;
+}
 body.login {
     background-color: #000;
     font-family: 'Inter', sans-serif;
@@ -9,7 +13,7 @@ body.login {
     color: #fff;
 }
 
-section {
+.login section {
     width: 1200px;
     margin: 0 auto;
 }
@@ -32,7 +36,6 @@ section {
     padding-top: 80px;
     padding-bottom: 200px;
 }
-
 section.login {
     background-color: #F4F4F4;
     margin-top: 10vh;
@@ -63,4 +66,20 @@ section.login {
     background-color: #5A5A5A;
     margin: 5px;
     padding: 10px;
+}
+.menu{
+    text-align: left;;
+}
+.content{
+    padding: 20px;
+    display: flex;
+}
+
+h1.titulo{
+    font-size: 22px;
+    font-weight: 900;
+}
+.content p{
+    font-size: 22px;
+    padding-top: 20px;
 }
