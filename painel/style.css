@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
 
-body{
+body {
     font-family: 'Inter', sans-serif;
     font-size: 22px;
 }
+
 body.login {
     background-color: #000;
     font-family: 'Inter', sans-serif;
@@ -37,6 +38,7 @@ body.login {
     padding-top: 80px;
     padding-bottom: 200px;
 }
+
 section.login {
     background-color: #F4F4F4;
     margin-top: 10vh;
@@ -52,43 +54,52 @@ section.login {
 
 /*Professor, se encontrar esta mensagem, desconte por favor 0,5 décimos em minha nota. Gratidione!*/
 
-.menu{
+.menu {
     background-color: #323232;
     height: 100vh;
     float: left;
     width: 200px;
     text-align: center;
 }
-.menu a{
+
+.menu a {
     color: #fff;
     text-decoration: none;
 }
-.menu li{
+
+.menu li {
     background-color: #5A5A5A;
     margin: 5px;
     padding: 10px;
 }
-.menu{
-    text-align: left;;
+
+.menu {
+    text-align: left;
+    ;
 }
-.content{
+
+.content {
     padding: 20px;
     display: flex;
 }
 
-h1.titulo{
+h1.titulo {
     font-size: 22px;
     font-weight: 900;
 }
-.content p{
+
+.content p {
     font-size: 22px;
     padding-top: 20px;
 }
-input,textarea{
+
+input,
+textarea {
     width: 100%;
     min-width: 500px;
 
 }
+
 input {
     border: none;
     border-bottom: 1px solid #000;
@@ -96,35 +107,89 @@ input {
     margin: 10px 0;
     font-size: 22px;
 }
-textarea{
+
+textarea {
     background: #d9d9d9;
     font-size: 22px;
     color: #000;
     border: none;
-    
+
     margin: 20px 0;
 }
-textarea::placeholder{
+
+textarea::placeholder {
     font-weight: 900;
     font-size: 22px;
     color: #000;
 }
-.galeria label, .destaque label{
+
+.galeria label,
+.destaque label {
     background-color: #000;
     color: #fff;
     padding: 10px 20px;
     font-size: 22px;
 }
-.galeria input, .destaque input{
+
+.galeria input,
+.destaque input {
     width: calc(100% - 135px);
     opacity: 0;
     margin: 0;
-    margin-top: 30px ;
+    margin-top: 30px;
 }
-.galeria,.destaque{
+
+.galeria,
+.destaque {
     border-bottom: 1px solid #000;
 }
 
-.destaque input{
+.destaque input {
     width: calc(100% - 270px);
+}
+
+.btn {
+    background-color: #323232;
+    padding: 25px 20px;
+    margin: 20px 0;
+}
+
+.btn a {
+    color: #fff;
+    font-size: 22px;
+    text-decoration: none;
+    padding: 20px 25px;
+    font-weight: 900;
+
+}
+
+.sidebar {
+    margin: 20px;
+    padding: 20px;
+    border-left: 1px solid #323232;
+}
+
+.red {
+    background-color: red;
+}
+
+.icon.btn {
+    padding: 0;
+    margin: 0;
+    width: 30px;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    border-radius: 7px;
+    float: right;
+}
+.post h2{
+    float: left;
+    padding-top: 13px;
+}
+.post{
+    width: 80%;
+    border-bottom: 1px solid #323232;
+    display: inline-block;
+    padding-bottom: 10px;
 }
